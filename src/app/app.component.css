@@ -1,0 +1,25 @@
+.mat-sidenav {
+    width: 150px;
+    float: left;
+  background-color:fuchsia;
+  }
+  
+  a:hover{
+    background-color:yellow;
+  }
+
+  @media screen and (max-width: 767px) {
+    .mat-sidenav{
+      background-color: coral;
+    }
+
+    a:hover{
+      background-color: darkolivegreen;
+      position: sticky;
+    }
+
+    
+   
+   
+
+  }

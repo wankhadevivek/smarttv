@@ -1,0 +1,18 @@
+.picture{
+   width: 500px;
+   height: 300px;
+   margin-top: 10px;
+   vertical-align: middle;
+   
+
+}
+
+.mainDiv{
+    display: grid;
+    grid-auto-rows: max-content;
+  
+    justify-content: center;
+    align-items: center;
+  
+}
+

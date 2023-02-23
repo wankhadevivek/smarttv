@@ -1,0 +1,18 @@
+
+<!-- <table>
+    <tr>
+        <th>ID</th>
+        <th style="width: 500px; height: 250px;">Link</th>
+    </tr>
+    <tr *ngFor="let i of userData">
+        <td>{{i.id}}</td>
+        <td>{{i.url}}</td>
+    </tr>
+</table> -->
+
+
+<div class="outerDiv">
+    <div *ngFor="let i of userData" class="mainDiv">
+        <img [src]="i.url" alt="loading error" class="picture">
+      </div>
+</div>
